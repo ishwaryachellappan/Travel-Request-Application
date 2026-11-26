@@ -7,7 +7,7 @@ sap.ui.define([
 ], function (Fragment, Component, JSONModel, MessageToast, MessageBox) {
   "use strict";
 
-  // Check <service url>/$metadata: the Schema Namespace and the
+  
   // bound actions "Activate" and "Discard"
   const NS = "com.sap.gateway.srvd.zic_travel_req_sd.v0001";
   const ACTIVATE = NS + ".Activate(...)";
